@@ -2,6 +2,7 @@
 
 ## How It Works
 The code runs the following steps to find the closest store:
+
 1. Code reads store-locations.csv and saves to local memory as store list
 2. User enters in any address to command line prompt
 3. Google Maps API and node-geocoder library converts any search query into a location
