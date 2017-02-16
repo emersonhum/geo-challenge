@@ -1,0 +1,21 @@
+{
+  "name": "emerson-hum-geo-challenge",
+  "version": "1.0.0",
+  "description": "Take-home coding challenge",
+  "main": "geo-challenge.js",
+  "scripts": {
+    "start": "node geo-challenge.js",
+    "test": "mocha"
+  },
+  "author": "Emerson Hum <emersonhum@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "fast-csv": "^2.3.1",
+    "node-geocoder": "^3.16.0",
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
